@@ -34,5 +34,15 @@ Choissiser un Admin
 <p><input type="radio" name="Admin" value="Clement"> Clément</p>
 <input type="submit" value="Choisir">
 </form>
+ 
+ <!-- zone de test -->
+
+ <div id="test">bonjour</div>
+<script>
+var nouveau = "bonsoir";
+document.getElementById('test').innerHTML = nouveau;
+</script>
+
+
 </body>
 </html>
